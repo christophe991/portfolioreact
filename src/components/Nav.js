@@ -2,6 +2,7 @@ import '../styles/Nav.css'
 import React from "react";//importation de la bibliotheque de react
 import Curriculum from "./Curriculum"
 import Diplome from './Diplome'
+import Creation from './Creation'
 
 import {
     BrowserRouter as Router,
@@ -24,6 +25,9 @@ function Nav(){
                         <button>
                             <Link to="/diplome">Diplôme et certification</Link>
                         </button>
+                        <button>
+                            <Link to="/creation">Création en js</Link>
+                        </button>
                     </ul>
                 </nav>
             </div>
@@ -33,6 +37,9 @@ function Nav(){
                 </Route>
                 <Route path="/diplome">
                     <Diplome/>
+                </Route>
+                <Route path="/creation">
+                    <Creation/>
                 </Route>
                
             </Switch>
