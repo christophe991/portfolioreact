@@ -2,10 +2,14 @@
   background-color: #1467A8;
 
 }
-p, h2, ul{
+p, h2, ul, h5{
   color: beige;
 }
 .profil{
   height: 100px;
   margin: 10px;
+}
+*{
+  list-style: none;
+  
 }

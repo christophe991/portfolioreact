@@ -3,6 +3,7 @@ import React from "react";//importation de la bibliotheque de react
 import Curriculum from "./Curriculum"
 import Diplome from './Diplome'
 import Creation from './Creation'
+import Accueil from './Accueil';
 
 import {
     BrowserRouter as Router,
@@ -11,6 +12,7 @@ import {
     Link
 }from "react-router-dom";
 
+
 function Nav(){
     return(
         <Router>
@@ -18,16 +20,19 @@ function Nav(){
                 <nav>
                     <ul>
                         <button>
-                            <Link to="/curriculum">Curriculum vitea</Link>
+                            <Link to="/">Accueil</Link>
                         </button>
-                        
-                        
                         <button>
                             <Link to="/diplome">Diplôme et certification</Link>
                         </button>
                         <button>
+                            <Link to="/curriculum">Curriculum vitea</Link>
+                        </button>
+                        
+                        <button>
                             <Link to="/creation">Création en js</Link>
                         </button>
+                        
                     </ul>
                 </nav>
             </div>
@@ -40,6 +45,9 @@ function Nav(){
                 </Route>
                 <Route path="/creation">
                     <Creation/>
+                </Route>
+                <Route path="/">
+                    <Accueil/>
                 </Route>
                
             </Switch>
