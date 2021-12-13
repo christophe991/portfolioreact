@@ -8,8 +8,9 @@ function App() {
     <div className="App">
         <Header/>
         <Nav/>
+        <div><img className='profil' src="img/photo.png" alt="profil"></img></div>
         <h2 class="margin-top">Qui suis-je?</h2>
-        <p>Je m’appelle christophe j’ai 40 ans, 
+        <p>Je m’appelle Christophe j’ai 40 ans, 
           je suis en reconversion professionnel suite a un accident de trajet, 
           durant mon ancienne expérience 
           j’ai travaillé en équipe sur plusieurs sites de nettoyage diffèrent.</p>
