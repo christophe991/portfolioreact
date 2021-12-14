@@ -24,7 +24,7 @@ function Accueil(){
           <il>&#8227;	Rapide et efficace : exemple je suis capable de nettoyer une salle du McDonald en 2H30 aux lieux de 3H </il>
         </ul>
         <ul>
-          <il>&#8227;	Prendre des initiatives : voyant l’état du secteur j’ai décidé de faire une remise en état </il>
+          <il>&#8227;	Prendre des initiatives : voyant l’état du secteur avec des trace sur les murs et au sol j’ai décidé de faire une remise en état </il>
         </ul>
         <h2>Mon porjet :</h2>
         <p>Ayant effectué deux formations en développement web et dotnet  
