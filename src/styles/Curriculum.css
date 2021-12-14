@@ -1,0 +1,14 @@
+img{
+    width: 100px;
+}
+.eval{
+    width: 700px;
+    height: 400px;
+    margin: 10px 20px 10px 300px;
+}
+table{
+    margin: 0 auto;
+}
+td{
+    text-align: center;
+}

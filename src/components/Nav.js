@@ -18,7 +18,7 @@ function Nav(){
         <Router>
             <div>
                 <nav>
-                    <ul>
+                    <ul className='nav'>
                         <button>
                             <Link to="/">Accueil</Link>
                         </button>

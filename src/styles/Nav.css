@@ -1,0 +1,16 @@
+.nav{
+    margin: 0px 0px 0px 100px;
+    justify-content: space-around;
+}
+button a{
+    text-decoration: none;
+    color: beige;
+}
+
+.nav button{
+    background-color: black;
+    border-radius: 10px;
+}
+.nav button:hover{
+    background-color: white;
+}
