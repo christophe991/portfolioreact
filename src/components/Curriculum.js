@@ -3,12 +3,12 @@ import '../styles/Curriculum.css'
 function Curriculum(){
     return(
         <div>
-            <h2>Competences en développement</h2>
-            <p>
+            <h2 className='mt-5'>Competences en développement</h2>
+            <p className='mt-5'>
             Voici les langage de programation apris en formation avec un affichage, je possede
             des connaissances en frontend et backend.
         </p>
-        <table className='competence'>
+        <table className='competence mt-5'>
             <thead class="bg-primary">
                 <tr class="text-center color-secondary">
                     <th>Image</th>
@@ -17,7 +17,13 @@ function Curriculum(){
                 </tr>
             </thead>
             <tr>
-                <td><img src="img/html5.jpg" alt='html5'/></td><td>HTML5, CSS3, JAVASCRIPT</td><td><img src="img/progre1.jpg" alt='progression'/></td>
+                <td><img src="img/php.png" alt='php'/></td><td>php</td><td><img src="img/progre.jpg" alt='progression'/></td>
+            </tr>
+            <tr>
+                <td><img src="img/sql.png" alt='sql'/></td><td>SqlSever</td><td><img src="img/progre.jpg" alt='progression'/></td>
+            </tr>
+            <tr>
+                <td><img src="img/js.png" alt='js'/></td><td>JAVSCRIPT</td><td><img src="img/progre.jpg" alt='progression'/></td>
             </tr>
             <tr>
                 <td><img src="img/boot.jpg" alt='bootstrap5'/></td><td>BootSTRAP5</td><td><img src="img/progre.jpg" alt='progression'/></td>
@@ -28,20 +34,23 @@ function Curriculum(){
             <tr>
                 <td><img src="img/reactjs.png" alt='react'/></td><td>REACT</td><td><img src="img/progre.jpg" alt='progression'/></td>
             </tr>
+            <tr>
+                <td><img src="img/csharp.png" alt='react'/></td><td>CSharp</td><td><img src="img/progre.jpg" alt='progression'/></td>
+            </tr>
             
         </table>
-        <h2>Evaluation en developpement web et web mobile</h2>
-        <p>Durant la formation Chez Webforce3 apres un mois de cour j'ai effectuer
+        <h2 className='mt-5'>Evaluation en developpement web et web mobile</h2>
+        <p className='mt-5'>Durant la formation Chez Webforce3 apres un mois de cour j'ai effectuer
             des evaluations, voici le resultat en image.
         </p>
-        <img className='eval' src="img/evaluations.png" alt='evaluation'/>
-        <h2 className="margin-top">Formations</h2>
+        <img className='eval mt-5' src="img/evaluations.png" alt='evaluation'/>
+        <h2 className="mt-5">Formations</h2>
         <ul className='row mt-5'>
             <li className='col-2'>&raquo;2021-2022</li>
             <li className='col-10'>Formation dotnet M2IFormation</li>
         </ul>
         <ul className='mission mt-5'>
-            <h5>Missions :</h5>
+            <h5 className='mt-5'>Missions :</h5>
             <li>&#8227;Création projet fil rouge en react et wpf</li>
             <li>&#8227;Réalisation du portfolio en react</li>
             <li>&#8227;Création de mini jeu en javascript</li>
