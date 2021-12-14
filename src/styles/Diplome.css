@@ -1,0 +1,16 @@
+.bacpro{
+    width: 300px;
+    margin-left: 400px;
+    transform: rotate(90deg);
+    
+}
+.dev{
+    width: 300px;
+    margin-left: 400px;
+    transform: rotate(90deg);
+}
+.int{
+    width: 300px;
+    margin-left: 400px;
+    transform: rotate(270deg);
+}

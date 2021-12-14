@@ -3,9 +3,9 @@ import '../styles/Diplome.css'
 function Diplome(){
     return(
         <div>
-            <h1>Diplôme et certification</h1>
+            <h2 className='mt-5'>Diplôme et certification</h2>
         <div>
-            <p className="marge">
+            <p className="mt-3">
                 Diplome technicien d'assistance en informatique obtenue en fin de formation au cirften, 
                 durant cette formation j'ai validée mes competences autodidacte avec ce diplome,
                 installation de windows, configuration d'adresse ip, depannage a distance avec un petit plus le HTML et CSS.
@@ -15,7 +15,7 @@ function Diplome(){
         </div>
         
         <div>
-            <p className="margin">
+            <p className="mt-3">
                 Certification obtenue en fin de formation avec webforce3 suite a un projet de groupe,
                 nous avons créer un centre commercial virtuel avec des utilisateur qui engregistre leurs
                 magasin et les produit, puis des utilisateurs client pour trouver le produit qu'il cherche
