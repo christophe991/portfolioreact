@@ -3,6 +3,7 @@ import React from "react";//importation de la bibliotheque de react
 import Curriculum from "./Curriculum"
 import Diplome from './Diplome'
 import Accueil from './Accueil';
+import Evaluation from './Evaluation'
 
 
 
@@ -30,6 +31,9 @@ function Nav(){
                         <button>
                             <Link to="/curriculum">Curriculum vitea</Link>
                         </button>
+                        <button>
+                            <Link to="/evaluation">Exemple d'evaluation</Link>
+                        </button>
                        
                         
                     </ul>
@@ -41,6 +45,9 @@ function Nav(){
                 </Route>
                 <Route path="/diplome">
                     <Diplome/>
+                </Route>
+                <Route path="/evaluation">
+                    <Evaluation/>
                 </Route>
                 
                 <Route path="/">
