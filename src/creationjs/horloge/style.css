@@ -1,0 +1,85 @@
+/******************RESET******************/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*****************BODY****************/
+body{
+    background-image: url("../horloge/img/papier.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.clock{
+    background: white;
+    border: 5px solid white;
+    border-radius: 50%;
+    border: solid black 3px;
+    background-image: url("../horloge/img/images.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+.wrap{
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+.minute, .heure{
+    position: absolute;
+    height: 120px;
+    width: 6px;
+    background: black;
+    margin: auto;
+    /*css qui permet de mettre l'aiquille au centre avec un decalage vers le haut*/
+    top: -30%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom center;/*permet de mettre l'aiguille au centre*/
+    transform: rotate(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 4);
+}
+.minute{
+    position: absolute;
+    height: 130;
+    width: 4px;
+    top: -34%;
+    left: 0;
+    right: 0;
+    transform: rotate(90deg);
+}
+.seconde{
+    position: absolute;
+    height: 90px;
+    width: 2px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -26%;
+    background: red;
+    transform-origin: bottom center;
+    transform: rotate(180deg);
+}
+.point{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    border: 2px solid #1b1b1b;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+
+
+}
+
+

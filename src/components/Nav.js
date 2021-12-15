@@ -4,6 +4,8 @@ import Curriculum from "./Curriculum"
 import Diplome from './Diplome'
 import Accueil from './Accueil';
 
+
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -28,7 +30,6 @@ function Nav(){
                         <button>
                             <Link to="/curriculum">Curriculum vitea</Link>
                         </button>
-                        
                        
                         
                     </ul>
@@ -41,6 +42,7 @@ function Nav(){
                 <Route path="/diplome">
                     <Diplome/>
                 </Route>
+                
                 <Route path="/">
                     <Accueil/>
                 </Route>

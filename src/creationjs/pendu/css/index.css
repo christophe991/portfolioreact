@@ -1,0 +1,21 @@
+body{
+    background-image: url("../img/jeudupendu.jpg");
+    font-size: 40px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+button, .letter{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.pendu{
+    color: gold;
+}
+.bravo{
+    color: mediumturquoise;
+}
+
+
