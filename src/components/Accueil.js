@@ -32,8 +32,9 @@ function Accueil(){
           m’accepterai comme junior et me formerai au développement pour un stage 
           d’un mois du 11 janvier au O7 février 2022 en plus de mon auto formation, 
           afin de continuer dans ce domaine. </p>
-        <p>Ensuite après quelque de pratique dans l’entreprise 
-          je travaillerai en parallèle sur la création d’un jeu sur navigateur.</p>
+        <p>Après quelque mois de pratique dans l’entreprise 
+          je continuerai à me former en créent un jeu sur navigateur 
+          et apprendre d’autre langage de programmation.</p>
         </div>
     )
 }export default Accueil
