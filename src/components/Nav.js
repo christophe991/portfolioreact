@@ -2,7 +2,6 @@ import '../styles/Nav.css'
 import React from "react";//importation de la bibliotheque de react
 import Curriculum from "./Curriculum"
 import Diplome from './Diplome'
-import Creation from './Creation'
 import Accueil from './Accueil';
 
 import {
@@ -11,6 +10,7 @@ import {
     Route,
     Link
 }from "react-router-dom";
+
 
 
 function Nav(){
@@ -29,9 +29,7 @@ function Nav(){
                             <Link to="/curriculum">Curriculum vitea</Link>
                         </button>
                         
-                        <button>
-                            <Link to="/creation">Création en js</Link>
-                        </button>
+                       
                         
                     </ul>
                 </nav>
@@ -42,9 +40,6 @@ function Nav(){
                 </Route>
                 <Route path="/diplome">
                     <Diplome/>
-                </Route>
-                <Route path="/creation">
-                    <Creation/>
                 </Route>
                 <Route path="/">
                     <Accueil/>
