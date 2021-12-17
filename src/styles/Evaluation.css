@@ -1,0 +1,47 @@
+.taille{
+    width: 800px;
+}
+section{
+    background-color: black;
+    width: 63%;
+    margin-left: 283px;
+    
+}
+.top{
+    background-color: beige;
+    
+
+}
+.position,.position1{
+    color: black;
+}
+p.droite {
+    margin-left: -235px;
+    width: 100%;
+}
+.voiture{
+    width: 353px;
+    margin: 10px 0 0 150px;
+}
+.prix{
+    display: flex;
+    justify-content: space-around;
+}
+.prix-barrer{
+    text-decoration: line-through;
+}
+div button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+div button:hover{
+    background-color: white;
+    color: black;
+}
+.nos{
+    margin-left: -1px;
+}
+.d-flex{
+    justify-content: space-around;
+}
